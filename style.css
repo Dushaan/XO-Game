@@ -1,6 +1,6 @@
 body{
-    background: ghostwhite;
-    color: dimgray;
+    background: rgb(250, 255, 219);
+    color: rgb(75, 71, 71);
     font-family: serif;
     text-align: center;
 }
@@ -62,7 +62,7 @@ span{
     z-index: 10;
     margin-top: -50%;
     border-radius: 20px;
-    box-shadow: 0 0 75px 2px dimgray;
+    box-shadow: 0 0 75px 2px rgb(44, 44, 44);
     animation: larger 0.5s;
     animation-fill-mode: forwards;
     box-sizing: content-box;
@@ -72,7 +72,7 @@ span{
 }
 
 button{
-    background: dimgray;
+    background: rgb(160, 168, 85);
     border-radius: 2px;
     color: ghostwhite;
     border: none;
@@ -80,11 +80,11 @@ button{
 }
 
 button:focus{
-    background: silver;
+    background: rgb(173, 184, 82);
 }
 
 .activeBox{
-    background: silver;
+    background: rgb(180, 179, 107);
 }
 
 @keyframes larger{
